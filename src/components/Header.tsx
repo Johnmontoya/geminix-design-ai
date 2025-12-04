@@ -48,8 +48,8 @@ const Header = () => {
     <div className="w-full flex flex-col px-20 py-8">
       <nav className="flex justify-between items-center p-6 relative z-10">
         <div className="flex items-center gap-3 text-2xl font-semibold">
-          <div className="flex bg-linear-to-t from-sky-500 to-indigo-500 w-10 h-10 rounded-3xl items-center justify-center font-bold text-2xl">
-            ⚡
+          <div className="flex items-center justify-center font-bold text-2xl">
+            <img src={assets.logo_icon} className="w-20 h-18" />
           </div>
           <span>Geminix</span>
         </div>
